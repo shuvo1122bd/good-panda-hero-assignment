@@ -5,6 +5,10 @@
   max-width: 100%;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 #fullbody {
   margin: 20px 70px;
 }
@@ -22,16 +26,12 @@
   /* margin: 50px 70px; */
   display: flex;
   padding: 50px 100px;
-  align-items: center;
   margin-bottom: 50px;
-}
-
-#logo {
-  justify-content: ;
 }
 
 .content * {
   margin-bottom: 8px;
+  align-items: left;
 }
 
 .content h1 {
@@ -68,7 +68,7 @@
 
 /* main-section */
 
-.content h1 {
+.content-head h1 {
   color: #1F1F1F;
   font-size: 36px;
   font-weight: bold;
@@ -104,4 +104,70 @@
 
 .shoe {
   background-color: #3F07F8;
+}
+
+/* Common-card */
+.card {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.item {
+  padding: 24px;
+  border: 2px solid #929292;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px 1px #92929220;
+}
+
+.content-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* .shoe-content * {
+  margin-bottom: 16px;
+  text-align: center;
+} */
+
+.content-head h3 {
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
+.content-head p {
+  color: #4E4E4E;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+}
+
+/* common-class-button */
+.btn {
+  background-color: black;
+  padding: 14px 20px;
+  color: #FFFFFF;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.btn:hover {
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Form */
+.touch-form {
+  background-color: #FFF2F1;
+  padding: 150px 250px;
+  text-align: center;
+}
+
+#inputText {
+  padding: 15px 40px;
 }
