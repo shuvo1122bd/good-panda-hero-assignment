@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
+
 }
 
 body {
@@ -64,6 +64,11 @@ body {
   font-size: 16px;
   font-weight: 200px;
   margin-top: 10px;
+}
+
+.content-btn:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
 }
 
 /* main-section */
@@ -151,15 +156,19 @@ body {
   background-color: black;
   padding: 14px 20px;
   color: #FFFFFF;
-  justify-content: space-around;
   font-size: 16px;
+  border-radius: 6px;
+  border: none;
 }
 
 .btn:hover {
-  font-size: 20px;
-  border: none;
+  background-color: #4E4E4E;
   cursor: pointer;
+  transform: translateY(-5px);
+  border: none;
 }
+
+
 
 /* Form */
 .touch-form {
@@ -170,4 +179,8 @@ body {
 
 #inputText {
   padding: 15px 40px;
+}
+
+.img {
+  padding: 10px;
 }
