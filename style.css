@@ -184,3 +184,53 @@ body {
 .img {
   padding: 10px;
 }
+
+.hidden {
+  display: none;
+}
+
+/* Responsive */
+
+/* Laptop devices 1025 - 1200 px */
+@media screen and (max-width:1200px) {
+  .content h1 {
+    font-size: 40px;
+  }
+  .categories{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .common{
+    justify-content: center;
+  }
+  .card{
+    flex-direction: column;
+  }
+
+
+  .img-resp{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* tablet devices 769 - 1024px */
+@media screen and (max-width:1024px) {
+  #front-section {
+    flex-direction: column;
+  }
+}
+
+/* Android device landscape 569 - 768px max */
+@media screen and (max-width:768px) {
+  .content-img img {
+    width: 300px;
+    margin: 0;
+    align-items: center;
+  }
+}
+
+/* Android device potrait 320px 
+@media screen and (max-width: 569px) {
+
+} */
