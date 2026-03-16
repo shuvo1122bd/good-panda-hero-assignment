@@ -185,10 +185,6 @@ body {
   padding: 10px;
 }
 
-.hidden {
-  display: none;
-}
-
 /* Responsive */
 
 /* Laptop devices 1025 - 1200 px */
@@ -235,10 +231,10 @@ body {
     margin: 0;
     align-items: center;
   }
-     .touch-form {
-       padding: 50px 20px;
-     }
-     
+    .touch-form {
+      padding: 50px 20px;
+    }
+
 }
 
 /* Android device potrait 320px 
